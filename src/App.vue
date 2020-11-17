@@ -143,7 +143,7 @@ export default {
       let { title, descr } = this.note;
 
       if (title === "") {
-        this.message = "title can`t be blank!";
+        this.message = "The title can`t be empty!";
         return false;
       }
 
