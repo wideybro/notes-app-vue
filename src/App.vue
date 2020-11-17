@@ -129,7 +129,7 @@ export default {
       // Small
       search = search.trim().toLowerCase();
       // Filter
-      array = array.filter(function(item) {
+      array = array.filter((item) => {
         if (item.title.toLowerCase().indexOf(search) !== -1) {
           return item;
         }

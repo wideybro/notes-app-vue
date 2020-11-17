@@ -41,8 +41,8 @@ export default {
     return { search: this.value };
   },
   watch: {
-    search(val) {
-      this.$emit("search", val);
+    search(value) {
+      this.$emit("search", value);
     },
   },
 };
