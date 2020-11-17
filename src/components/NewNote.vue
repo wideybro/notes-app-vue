@@ -19,7 +19,7 @@ export default {
   },
   methods: {
     addNote() {
-      this.$emit("addNote", this.note);
+      this.$emit("add-note");
     },
   },
 };
